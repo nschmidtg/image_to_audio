@@ -33,7 +33,6 @@ parser.add_argument(
 
 
 def main(conf):
-    torchaudio.set_audio_backend(backend='soundfile')
     image_path = conf['image_path']
     sample_rate = conf['sample_rate']
     hop_size = conf['hop_size']
